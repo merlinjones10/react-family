@@ -6,10 +6,8 @@ import { faker } from '@faker-js/faker';
 const Dad = (props) => {
   return (
     <div>
-    <h2>Steve {props.lastName}</h2>
-    <button onClick={() => {
-        props.setLastName(faker.name.lastName())
-    }}>Change My Name!</button>
+    <h2>Dad: Steve {props.lastName}</h2>
+    <h2>Company: {props.company}</h2>
     </div>
   )
 }
