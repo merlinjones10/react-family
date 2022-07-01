@@ -16,8 +16,9 @@ function App() {
     <div>
         <Grandad lastName={lastName} food='chips' setName={setLastName} job={job} setJob={setJob} company={company} setCompany={setCompany} />
   
-
+      <p>Test</p>
     </div>
+    
 
   );
 }
